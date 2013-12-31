@@ -1,0 +1,7 @@
+<% unless @shortened_url.nil? %>
+	Your shortened url: <%= @shortened_url.short_url %>
+
+	<%= link_to "Try it!", @shortened_url.full_url, target: "_blank" %>
+
+	<%= link_to "Clear", root_path %>
+<% end %>

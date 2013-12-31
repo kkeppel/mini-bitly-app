@@ -1,0 +1,7 @@
+<%= form_for :url do |f| %>
+	Url to shorten: <%= f.text_field :full_url %>
+
+	<%= f.submit %>
+<% end %>
+
+<%= render partial: "display_new_url" %>

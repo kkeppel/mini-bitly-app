@@ -1,0 +1,8 @@
+# SQLite version 3.x
+#   gem install sqlite3
+
+development:
+  adapter: sqlite3
+  database: bitly_app.db
+  pool: 5
+  timeout: 5000
