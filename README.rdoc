@@ -1,2 +1,1 @@
-== Welcome to Rails
-
+Mini bitly app for BlueApron
